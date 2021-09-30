@@ -6,7 +6,6 @@ int main(){
     int num, n, nguesses=1;
     srand(time(0));
     num=rand()%100+1;
-    // printf("the value of the number is %d\n", num);
     do{
         printf("enter a number between 1-100\n");
         scanf("%d", &n);
